@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+SemiBold:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-abhaya-libre-medium: "Abhaya Libre Medium";
+  --body-regular: "Helvetica Neue";
+  --font-abhaya-libre-semibold: "Abhaya Libre SemiBold";
+
+  /* font sizes */
+  --font-size-xs: 13px;
+  --body-small-size: 14px;
+  --body-regular-size: 16px;
+  --font-size-lg: 23px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 25px;
+  --font-size-3xl: 26px;
+  --font-size-4xl: 30px;
+  --font-size-5xl: 32px;
+  --font-size-6xl: 35px;
+  --font-size-7xl: 50px;
+
+  /* Colors */
+  --gray-white: #fff;
+  --theme-secondary: #6c757d;
+  --color-gray-200: #212529;
+  --color-gray-300: #010101;
+  --color-gray-400: rgba(84, 60, 60, 0);
+  --hitbox: rgba(255, 255, 255, 0);
+  --color-turquoise: #64baaa;
+  --color-indigo: #6d45af;
+  --gray-black: #000;
+  --theme-danger: #dc3545;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-xs: 1px;
+  --gap-sm: 4px;
+  --gap-md: 8px;
+  --gap-lg: 9px;
+  --gap-xl: 14px;
+  --gap-2xl: 16px;
+
+  /* Paddings */
+  --padding-4xs: 1px;
+  --padding-3xs: 4px;
+  --padding-2xs: 5px;
+  --padding-xs: 6px;
+  --padding-sm: 7px;
+  --padding-md: 8px;
+  --padding-lg: 12px;
+  --padding-xl: 13px;
+  --padding-2xl: 14px;
+  --padding-3xl: 16px;
+  --padding-4xl: 35px;
+
+  /* border radiuses */
+  --br-sm: 3px;
+  --br-md: 4px;
+  --br-lg: 10px;
+}

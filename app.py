@@ -1,5 +1,4 @@
 import os
-from django_shortcuts import render
 from flask import Flask, flash, redirect, render_template, request, session
 from flask_session.__init__ import Session
 
@@ -16,9 +15,6 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Make sure API key is set
-if not os.environ.get("API_KEY"):
-    raise RuntimeError("API_KEY not set")
-
 @app.after_request
 def after_request(response):
     """Ensure responses aren't cached"""
@@ -26,4 +22,3 @@ def after_request(response):
     response.headers["Expires"] = 0
     response.headers["Pragma"] = "no-cache"
     return response
-
