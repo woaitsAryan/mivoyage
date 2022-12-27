@@ -5,10 +5,10 @@ from firebase import Firebase
 app = Flask(__name__)
 
 config = {
-  "apiKey": "AIzaSyCwh41hkcD524PZqa0yfND4RM5CqZLKulE",
-  "authDomain": "mivoyage.firebaseapp.com",
-  "databaseURL": "https://mivoyage-default-rtdb.firebaseio.com/",
-  "storageBucket": "mivoyage.appspot.com"
+    "apiKey": "AIzaSyCwh41hkcD524PZqa0yfND4RM5CqZLKulE",
+    "authDomain": "mivoyage.firebaseapp.com",
+    "databaseURL": "https://mivoyage-default-rtdb.firebaseio.com/",
+    "storageBucket": "mivoyage.appspot.com"
 }
 
 firebase = Firebase(config)
